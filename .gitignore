@@ -137,3 +137,28 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+#Terraform hidden files or folders
+# Local .terraform directories
+.terraform/*
+
+#  Ignore variables files
+*.auto.tfvars
+
+#  Ignore override files
+*.tfoverride
+
+#  Ignore environment-specific files
+.envrc
+
+#  Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Local Terraform state
+*.tfstate
+*.tfstate.*
+
+# Sensitive override files
+*.tfvars
+*.tfvars.json
